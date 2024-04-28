@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+@font-face {
+    font-family: 'AvenirWorld';
+    src: url('../assets/font/AvenirWorld.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: 'AvenirWorld-demi';
+    src: url('../assets/font/AvenirWorld-Demi.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: 'DPLUSRealTextPro-Bold';
+    src: url('../assets/font/DPLUSRealTextPro-Bold.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: 'DPLUSRealTextPro-Book';
+    src: url('../assets/font/DPLUSRealTextPro-Book.woff2') format(woff2);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+:root {
+    --color-main: #0b3144;
+    --color-secondary: #00ffae;
+    --color-text: #666;
+    --color-background: #fff;
+
+    /* --weight-bold: 500; */
+
+    --padding-base: 2rem;
+}
+html {
+    font-family: 'AvenirWorld', sans-serif;
+    /* font-weight: bold; */
+}
+
+.heading {
+    font-size: 2.5rem;
+}
+.lead {
+    width: 40rem;
+    max-width: 100%;
+}
+.subheading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.title {
+    color: #E88C74;
+}
+
+/* .my-custom-slider {
+    margin-top: 4rem;
+} */
+.my-custom-slider .title {
+    margin: 1rem 0 .5rem;
+}
+
+.main-headerblock {
+    width: 100%;
+    height: 76.91588rem;
+    background-image: url(../assets/backgroundDesktop.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.section-first {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+}
+
+.main-logo {
+    width: 32.05125rem;
+    height: 7.42406rem;
+    margin-bottom: 1rem;
+}
+
+.paragraph-first {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.paragraph-first-section-second {
+    width: 20%;
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.paragraph-first-section-second img {
+    width: 8.8125rem;
+    height: 4.6875rem;
+}
+
+.paragraph-first-section-first p {
+    font-family: 'AvenirWorld', sans-serif;
+    color: #fff;
+    font-size: 1.125rem;
+}
+
+.paragraph-first-section-first {
+    width: 80%;
+    padding-right: 1rem;
+    border-right: 0.1rem solid #ffffff;
+    height: 10.84375rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#sidebar-1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'DPLUSRealTextPro-Book', sans-serif;
+    font-size: 0.5625rem;
+    margin-top: 1rem;
+}
+
+#sidebar-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'DPLUSRealTextPro-Bold', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#cta-1 {
+    border-radius: 1.03063rem;
+    background: #0E72FA;
+    width: 9.41869rem;
+    height: 2.00656rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cta-1 p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'DPLUSRealTextPro-Bold', sans-serif;
+    font-size: 1.0625rem;
+}
+
+.main-logo-2 {
+    display: none;
+}
+
+.main-headerblock-2 {
+    display: none;
+}
+
+#gallery-mobile {
+    display: none;
+}
+
+.tns-nav {
+    display: none;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 16.625rem;
+    background-image: url(../assets/blueLineDesktop.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 100;
+    margin-top: -4rem;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 2.75rem;
+}
+
+.footer-logo {
+    width: 16.875rem;
+    height: 9.0625rem;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar-footer-1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'DPLUSRealTextPro-Book', sans-serif;
+    font-size: 1.0625rem;
+    margin-top: 1rem;
+}
+
+#sidebar-footer-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'DPLUSRealTextPro-Bold', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#cta-2 {
+    border-radius: 1.69325rem;
+    background: #0E72FA;
+    width: 16.61256rem;
+    height: 3.38644rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cta-2 p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'DPLUSRealTextPro-Bold', sans-serif;
+    font-size: 1.5rem;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright-bottom {
+    margin-top: -1rem;
+    z-index: 200;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    font-family: Arial;
+    font-size: 1vw;
+}
+
+@media (max-width: 480px) {
+
+    #cta-2 {
+        border-radius: 5.33vw;
+        background: #0E72FA;
+        width: 55.208vw;
+        height: 11.288vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #cta-2 p {
+        color: #FFF;
+        text-align: center;
+        font-family: 'DPLUSRealTextPro-Bold', sans-serif;
+        font-size: 6.25vw;
+    }
+
+    .copyright-bottom {
+        margin-top: -4.583vw;
+        font-size: 2vw;
+    }
+
+    #sidebar-footer-2 {
+        font-size: 8.25vw;
+        margin-bottom: 5vw;
+    }
+
+    .footer-logo {
+        width: 56.25vw;
+        height: auto;
+        margin-top: -25vw;
+    }
+
+    .footer-main {
+        width: 100%;
+        height: 88vw;
+        background-image: url(../assets/blueLineMob.png);
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 200;
+        margin-top: -1.3rem;
+
+        flex-direction: column; 
+        align-items: center;
+        gap: 0;
+    }
+
+    .tns-nav {
+        display: none;
+    }
+
+    #gallery-desktop {
+        display: none;
+    }
+
+    #gallery-mobile {
+        display: block;
+    }
+
+    .header .cta {
+        margin-top: 1rem;
+    }
+
+    .main-headerblock {
+        display: none;
+    }
+
+    .main-headerblock-2 {
+        display: block;
+        width: 100%;
+        height: 237.08vw;
+        background-image: url(../assets/backgroundMobile.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .main-logo {
+        display: none;
+    }
+
+    .section-first-2 {
+        width: 100%;
+        padding: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2rem;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .main-logo-2 {
+        display: block;
+        width: 75vw;
+        height: auto;
+        margin-bottom: 5vw;
+    }
+
+    .paragraph-first-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+
+    .paragraph-first-section-first-2 {
+        border-bottom: 0.1vw solid #ffffff;
+        display: flex;
+        align-items: center;
+    }
+
+    .paragraph-first-section-first-2 p {
+        font-family: 'AvenirWorld', sans-serif;
+        color: #fff;
+        font-size: 3vw;
+        /* font-size: calc(100vw / 50); */
+        margin-bottom: 1rem;
+    }
+
+    .paragraph-first-section-second-2 {
+        margin-top: 0.5vw;
+        display: flex;
+        gap: 2rem;
+        margin-top: 4.5vw;
+        align-items: center;
+    }
+
+    .paragraph-first-section-second-2 img {
+        width: 32vw;
+        height: 17.29vw;
+    }
+
+    #sidebar-1 {
+        font-size: 1.875vw;
+        margin-top: 3.3vw;
+    }
+
+    #sidebar-2 {
+        font-size: 4.3vw;
+        margin-bottom: 5vw;
+    }
+    
+    #cta-1 {
+        border-radius: 21vw;
+        width: 31.39375vw;
+        height: 7.017188vw;
+    }
+
+    #cta-1 p {
+        font-size: 3.54167vw;
+    }
+
+    #sidebar-footer-1 {
+        font-size: 3.542vw;
+        margin-top: 4.583vw;
+    }
+    
+}
+
+@media (min-width: 481px) {
+    .heading {
+        font-size: 3rem;
+    }
+}
